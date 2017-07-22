@@ -35,19 +35,14 @@ This is a PHP script written to run from the command line strictly to demonstrat
 
 ### File Structure
 
-The `/src` directory contains two files:
-
-`/src/one-time-pad-modulo-26.php` &mdash;  Contains the `OneTimePad` class.<br>
-`/src/run.php` &mdash; Shows by example how to use the `OneTimePad` class.
-
-The `/text` directory contains four files:
-
 | File Name | File Description |
 | --- | --- |
+| `/run.php` | Shows by example how to use the `OneTimePadModulo26` class. |
+| `/src/OneTimePadModulo26.php` | Contains the `OneTimePadModulo26` class. |
 | `/text/cipherkey.txt`  | This file contains the cipher key:  A random sequence of alphabetic characters in uppercase, from A through Z.  |
 | `/text/ciphertext.txt`  | This file contains output from the script showing the encrypted message.  _This file is replaced every time the script is run._  |
 | `/text/plaintext.txt`  | The source (unencrypted, plain text) message.  |
-| `/text/vigenere-table-aka-tabula-recta.txt`  | The Vigenere table, also known as the &ldquo;tabula recta,&rdquo; in monospace text in case you want to try doing the one time pad by hand or simply to study.  |
+| `/text/vigenere-*.txt`  | The Vigenere table, also known as the &ldquo;tabula recta,&rdquo; in monospace text in case you want to try doing the one time pad by hand or simply to study.  |
 
 ## About the One Time Pad
 
